@@ -1,4 +1,4 @@
-import { ComplexTitle } from "./components/ComplexTitle";
+import ComplexTitle from "./components/ComplexTitle";
 import { Random } from "./components/Random"
 
 function App() {
