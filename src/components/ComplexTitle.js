@@ -4,9 +4,10 @@ import styled from 'styled-components'
 
 export const ComplexTitle = ({ title }) => {
     return (
-        <Wrapper>
+        <Wrapper >
             <h1>{title}</h1>
             <div className='underline'></div>
+            <h2 className='bg-grey title'>Random</h2>
         </Wrapper>
     )
 }
@@ -22,5 +23,9 @@ const Wrapper = styled.div`
         height: .25rem;
         background: #645cff;
         margin: 0 auto;
+    }
+
+    .title{
+        text-align: center;
     }
 `
